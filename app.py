@@ -3,7 +3,7 @@ import json
 import re  # Added for regex-based JSON extraction
 
 # Set up Gemini API key
-GEMINI_API_KEY = "AIzaSyAAIFWY-cwBeeYTmjHdrg0EzkV-XLeFa3k"
+GEMINI_API_KEY = "Your_api_key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_json(text):
